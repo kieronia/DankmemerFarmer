@@ -14,7 +14,6 @@ token = "abc.def.gtokenhereeeeeeeeeeeee"
 prefix = "!"
 client = commands.Bot(prefix, self_bot=True)
 client.remove_command("help")
-bot = commands.Bot(description="Discord self-bot" , command_prefix="!")
 count = int(0)
 os.system("mode 75,40")
 os.system("title Auto Begger For Dank Memer, Type !beg")
